@@ -1,0 +1,60 @@
+div#container {
+    display: grid;
+}
+
+.box1 {
+    margin: auto;
+    margin-top: 120px;
+    padding: 20px;
+    width: auto;
+    min-width: 400px;
+    max-width: 625px;
+}
+
+#formInputs {
+    display: inline-block;
+    text-align: right;
+}
+
+.MarginAuto {
+    margin-top: 120px;
+}
+
+select {
+    width: 24em;
+}
+
+#DatumAnkomst,
+#DatumLämning,
+textarea {
+    width: 23.2em;
+}
+
+#namn {
+    width: 22.8em;
+}
+
+#submit {
+    margin-right: 8em;
+}
+
+select,
+#DatumAnkomst,
+#DatumLämning,
+textarea,
+#namn {
+    min-width: 100px;
+    min-height: 2rem;
+    font-size: 1rem
+}
+
+label {
+    font-size: 1.5rem;
+}
+
+@media only screen and (min-device-width : 769px) {
+    div#container {
+        display: flex;
+    }
+
+}

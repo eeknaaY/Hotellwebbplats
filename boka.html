@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./static/css/index.css">
+    <link rel="stylesheet" href="./static/css/boka.css">
+    <script defer src="./static/js/index.js"></script>
+</head>
+
+<body>
+    <div id="navBarComputer">
+        <img src="./img/image_1.png" alt="Hotel logo">
+        <a href="./index.html">
+            <p id="startBtnComputer">Start</p>
+        </a>
+        <a href="./hitta.html">
+            <p id="hittaBtnComputer">Hitta</p>
+        </a>
+        <a>
+            <p id="bokaBtnComputer">Boka</p>
+        </a>
+        <a href="./kontakt.html">
+            <p id="kontaktBtnComputer">Kontakt</p>
+        </a>
+    </div>
+
+    <div id="navBarPhone">
+        <a href="./index.html">
+            <p id="startBtn">Start</p>
+        </a>
+        <a href="./hitta.html">
+            <p id="hittaBtn">Hitta</p>
+        </a>
+        <a>
+            <p id="bokaBtn">Boka</p>
+        </a>
+        <a href="./kontakt.html">
+            <p id="kontaktBtn">Kontakt</p>
+        </a>
+        <img src="./img/image_1.png" alt="Hotel logo">
+    </div>
+    <img id="hidebar" onclick="test()" src="./img/hidebar.jpg" alt="Hide and Show bar button">
+
+    <div id="container">
+        <div class="box1">
+            <div id="formInputs">
+                <form action="./index.html" method="post">
+                    <div class="inputdiv"><label for="namn">För- Efternamn: </label>
+                        <input type="text" id="namn">
+                    </div>
+                    <div class="inputdiv"><label for="Rumstyp">Rumstyp: </label>
+                        <select name="Rumstyp" id="Rumstyp">
+                            <option value="">Enkelrum</option>
+                            <option value="">Dubbelrum</option>
+                            <option value="">Svit</option>
+                            <option value="">Lägenhet</option>
+                        </select>
+                    </div>
+                    <div class="inputdiv"><label for="DatumAnkomst">Ankomst </label>
+                        <input type="date" id="DatumAnkomst">
+                    </div>
+                    <div class="inputdiv"><label for="DatumLämning">Lämning </label>
+                        <input type="date" id="DatumLämning">
+                    </div>
+                    <div class="inputdiv"><label for="ovrigt">Övrigt: </label>
+                        <textarea id="ovrigt" name="ovriginfo" rows="10" cols="17" placeholder="Övrigt"></textarea>
+                    </div>
+                    <input type="submit" id="submit">
+                </form>
+            </div>
+        </div>
+        <img class="MarginAuto" src="./img/image_4.png" alt="picture of hotel with pool">
+
+        <footer>
+            Paulihotel - Föreningsgatan 41, 211 52 Malmö, Sverige - 000-000 00 00 - Öppen 8.00 - 0.00 Alla Dagar
+        </footer>
+    </div>
+</body>
+
+</html>
