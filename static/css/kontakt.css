@@ -17,7 +17,7 @@ div#navBarPhone {
 }
 
 
-@media only screen and (min-device-width : 769px) {
+@media only screen and (min-width : 769px) {
     .box1 {
         margin: auto;
         width: 1000rem;
