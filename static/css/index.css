@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
 
+body {
+    background-color: #D9D9D9;
+}
+
 a {
     text-decoration: none;
     color: white;

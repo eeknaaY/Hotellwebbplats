@@ -19,13 +19,24 @@ div#navBarPhone {
 
 @media only screen and (min-device-width : 769px) {
     .box1 {
-        margin-left: auto;
-        min-width: 700px;
+        margin: auto;
+        width: 1000rem;
+        height: 28.3rem;
+        margin-top: 10px;
     }
+
+    .box1 p {
+        font-size: 2rem;
+    }
+
 
     .computerCenter {
         display: flex;
-        flex-direction: column;
+        flex-direction: row-reverse;
         align-items: center;
+        justify-content: center;
+        margin-top: 100px;
     }
+
+
 }

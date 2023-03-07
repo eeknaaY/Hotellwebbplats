@@ -11,13 +11,14 @@ div#container {
     max-width: 625px;
 }
 
+
 #formInputs {
     display: inline-block;
     text-align: right;
 }
 
 .MarginAuto {
-    margin-top: 120px;
+    margin: -80px auto;
 }
 
 select {
@@ -35,7 +36,8 @@ textarea {
 }
 
 #submit {
-    margin-right: 8em;
+    margin-right: 10.5em;
+    width: 100px;
 }
 
 select,
@@ -55,6 +57,10 @@ label {
 @media only screen and (min-device-width : 769px) {
     div#container {
         display: flex;
+    }
+
+    .MarginAuto {
+        margin: 40px auto;
     }
 
 }
