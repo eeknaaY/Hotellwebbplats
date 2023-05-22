@@ -17,6 +17,11 @@ img#hidebar {
     position: fixed;
 }
 
+div#navBarComputer img {
+    width: 130px;
+    height: 43px;
+}
+
 
 div#navBarPhone {
     margin-top: 107px;
