@@ -2,6 +2,9 @@
 
 body {
     background-color: #D9D9D9;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
 }
 
 a {
@@ -14,14 +17,8 @@ img#hidebar {
     position: fixed;
 }
 
-body {
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Inter', sans-serif;
-}
 
 div#navBarPhone {
-    /* 130 x 109 */
     margin-top: 107px;
     height: 100%;
     width: 130px;
@@ -43,7 +40,7 @@ img {
 }
 
 .box1 {
-    text-align: left;
+    /* text-align: left; */
     margin: 10px;
     margin-right: 20px;
     background-color: #323232;
@@ -51,7 +48,7 @@ img {
     padding-bottom: 70px;
     border-radius: 10px;
     overflow: auto;
-    width: 50rem;
+    width: 1000%;
     max-width: 750px;
 }
 
@@ -74,7 +71,7 @@ footer {
     text-align: center;
     font-size: 12px;
     color: #FFFFFF;
-    padding: 8px;
+    /* padding: 80px; */
     width: 100%;
     position: fixed;
     bottom: 0px;
@@ -85,14 +82,11 @@ div#navBarComputer {
     position: fixed;
     top: 0;
     background-color: #323232;
-    text-align: center;
+    /* text-align: center; */
     gap: 40px;
     width: 100%;
     display: none;
 }
-
-
-
 
 @media only screen and (min-width : 769px) {
 
@@ -101,12 +95,13 @@ div#navBarComputer {
         display: none;
     }
 
-    body {
+    /* body {
         margin-top: 60px;
-    }
+    } */
 
     .FirstLevel {
         display: flex;
+        margin-top: 65px;
     }
 
     .SecondLevel {
@@ -115,9 +110,9 @@ div#navBarComputer {
     }
 
     .box1 {
-        width: auto;
-        min-width: 200px;
-        max-width: 1000px;
+        /* width: auto; */
+        height: 250px;
+        overflow: hidden;
     }
 
     .box1 p {
@@ -133,8 +128,12 @@ div#navBarComputer {
         font-size: 20px;
     }
 
-    .IndexBlock {
+    /* .IndexBlock {
         display: inline;
+    } */
+
+    .SecondLevel .box1 {
+        margin-top: 2em;
     }
 
 }

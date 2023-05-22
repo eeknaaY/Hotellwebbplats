@@ -1,27 +1,32 @@
 .box1 {
     margin: auto;
-    margin-left: 2.5rem;
     margin-top: 100px;
-    max-width: 650px;
+    margin-left: 70px;
+    max-width: 80vw;
+    min-width: 600px;
+}
+
+.box1 p {
+    text-align: center;
 }
 
 div#navBarPhone {
-    position: fixed;
+    /* position: fixed; */
     top: 0px;
 }
 
 #hidebar {
-    position: absolute;
+    /* position: absolute; */
     top: 0;
-    left: 0;
+    /* left: 0; */
 }
 
 
 @media only screen and (min-width : 769px) {
     .box1 {
-        margin: auto;
-        width: 1000rem;
+        /* width: 100em; */
         height: 28.3rem;
+        margin: auto 60px;
         margin-top: 10px;
     }
 
@@ -32,10 +37,10 @@ div#navBarPhone {
 
     .computerCenter {
         display: flex;
-        flex-direction: row-reverse;
-        align-items: center;
         justify-content: center;
-        margin-top: 100px;
+        flex-direction: row-reverse;
+        /* justify-content: center; */
+        margin-top: 180px;
     }
 
 

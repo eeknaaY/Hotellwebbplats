@@ -1,33 +1,40 @@
+.content {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+
 #map {
-    padding-top: 60px;
-    height: 300px;
-    padding-bottom: 100px;
+    /* display: flex; */
+    /* justify-content: center; */
+    padding-top: 150px;
+    /* height: 300px; */
+    padding-bottom: 60px;
 }
 
 .box1 {
-    display: table;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
 }
 
 .box1 p {
-    text-align: center;
-    display: table-cell;
-    vertical-align: middle;
+    padding-top: 55px;
+    font-size: 1.5em;
 }
 
 iframe {
-    width: 48rem;
-    height: 20rem;
+    width: 80vw;
+    height: 20em;
 }
 
 @media only screen and (min-width : 769px) {
-    .content {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
 
     .box1 {
-        min-width: 60%
+        height: fit-content;
+        min-width: 60vw
     }
+
 }
