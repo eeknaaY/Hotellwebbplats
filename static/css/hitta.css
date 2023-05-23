@@ -1,15 +1,11 @@
 .content {
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     flex-direction: column;
 }
 
 #map {
-    /* display: flex; */
-    /* justify-content: center; */
     padding-top: 150px;
-    /* height: 300px; */
     padding-bottom: 60px;
 }
 

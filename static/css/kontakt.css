@@ -11,20 +11,16 @@
 }
 
 div#navBarPhone {
-    /* position: fixed; */
     top: 0px;
 }
 
 #hidebar {
-    /* position: absolute; */
     top: 0;
-    /* left: 0; */
 }
 
 
 @media only screen and (min-width : 769px) {
     .box1 {
-        /* width: 100em; */
         height: 28.3rem;
         margin: auto 60px;
         margin-top: 10px;
@@ -39,7 +35,6 @@ div#navBarPhone {
         display: flex;
         justify-content: center;
         flex-direction: row-reverse;
-        /* justify-content: center; */
         margin-top: 180px;
     }
 
